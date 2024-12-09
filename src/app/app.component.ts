@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: false,
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  providers:[]
 })
 export class AppComponent {
   title = 'musicCollection';
